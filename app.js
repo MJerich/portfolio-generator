@@ -51,6 +51,7 @@ const promptProject = portfolioData => {
 Add a New Project
 =================
 `);
+    
     if (!portfolioData.projects) {
         portfolioData.projects = [];
     }
